@@ -1,0 +1,11 @@
+======================================================================
+EVALUATION RESULTS - GEMMA 3N ASR
+======================================================================
+
+WER Score: 0.0721 (7.21%)
+Total Samples: 5000
+Empty Predictions: 0
+Total Reference Words: 97279
+Total Predicted Words: 96794
+Avg Reference Length: 19.46 words
+Avg Prediction Length: 19.36 words

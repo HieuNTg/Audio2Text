@@ -1,0 +1,40 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data / outputs / models
+outputs/
+checkpoints/
+final_model*/
+final_model1/
+separated/
+*.ckpt
+*.pth
+*.pt
+
+# Logs
+*.log
+
+# Sensitive
+.env
+*.pem

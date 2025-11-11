@@ -1,0 +1,27 @@
+# Core
+torch
+numpy
+tqdm
+
+# Dataset / audio
+datasets
+librosa
+soundfile
+scipy
+
+# Model & training
+transformers
+unsloth
+trl
+evaluate
+
+# Audio processing / VAD / separation
+webrtcvad
+demucs
+
+# Optional / utilities
+python-dotenv
+
+# NOTE:
+# - Some packages (e.g., `unsloth`, specific `demucs` builds) may be private or require
+#   additional installation steps. Adjust versions as needed for your environment.
