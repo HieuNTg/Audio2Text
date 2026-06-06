@@ -37,14 +37,14 @@ End-to-end toolkit for **Vietnamese automatic speech recognition** built on a fi
 
 ```
                           ┌─────────────────────────┐
-   Raw audio / video ───▶ │   Inference Pipeline    │ ───▶  Transcript
+   Raw audio / video ───▶ │   Inference Pipeline     │ ───▶  Transcript
                           └─────────────────────────┘
                                       ▲
                                       │ adapters (LoRA)
-                           ┌─────────────────────────┐
-   Vietnamese dataset ─▶   │   PEFT Fine-tuning      │
-                           │   Gemma 3N + 4-bit      │
-                           └─────────────────────────┘
+                          ┌─────────────────────────┐
+   Vietnamese dataset ──▶ │   PEFT Fine-tuning       │
+                          │   Gemma 3N + 4-bit       │
+                          └─────────────────────────┘
 ```
 
 ---
